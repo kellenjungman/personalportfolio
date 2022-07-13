@@ -1,0 +1,227 @@
+html {
+    background-color:black;
+    color:white;
+}
+.header-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 1%;
+}
+.title-name {
+    margin: 0;
+    font-weight: 100;
+}
+.header-nav-bar {
+    position: sticky;
+    float: right;
+}
+    .header-nav-bar ul {
+        list-style:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+        .header-nav-bar li {
+            display: inline;
+            margin: 10px;
+        }
+            .header-nav-bar li a {
+                text-decoration: none;
+                color: white;
+            }
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+.header-desc-div {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.header-desc {
+    font-weight: 100;
+    font-size: large;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.body-nav-bar {
+
+}
+    .body-nav-bar ul {
+        list-style:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+        .body-nav-bar li {
+            display: block;
+            margin: 25px;
+            font-size: large;
+        }
+            .body-nav-bar li a {
+                text-decoration: none;
+                color: white;
+            }
+.body-div {
+    display: grid;
+    grid-template-columns: 33% auto;
+    margin-bottom: 10%;
+}
+
+.line::after {
+    content: ' \2501';
+}
+    .body-div-2 {
+        display: grid;
+        grid-auto-rows: 200px;
+        row-gap: 10px;
+    }
+        .body-div-card {
+            background-color: gray;
+        }
+
+.body-div-slideshow {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: 500px;
+    column-gap: 10px;
+}  
+    .body-div-slideshow-card {
+        background-color: gray;
+    }     
+                
+
+
+
+
+
+
+footer{
+    margin-top: 10%;
+    margin-bottom: 5%;
+   }
+
+.footer-div {
+    display: grid;
+    grid-template-columns:50% auto;
+}
+.footer-div-hobby {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+.footer-div-hobby-1 {
+    background-color: gray;
+}
+
+.form-card-image {
+    overflow: hidden;
+    padding-bottom: 60%;
+    background-image: url('https://assets.codepen.io/285131/coffee_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 0 5%;
+    position: relative;
+}
+
+.form-card-heading {
+    position: absolute;
+    left:10%;
+    right:10%;
+    top: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #735400;
+    line-height: 1.222;
+}
+    .form-card-heading small {
+        display: block;
+        font-size: .75em;
+        font-weight: 400;
+        margin-top: .25em;
+    }
+    form {
+        padding: 1em;
+        padding-bottom:0;
+        border: 0;
+        background-color: white;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    form li + li {
+        margin-top: 1em;
+    }
+
+    input,
+    textarea {
+        font-family: Tahoma, Verdana, sans-serif;
+        width:100%;
+        border:solid thin #000;
+        padding-top:5px;
+        padding-bottom:5px;
+       
+
+    }
+
+        input:focus,
+        textarea:focus {
+            outline:0;
+        }
+
+    textarea {
+        vertical-align: top;
+        height: 5em;
+    }
+
+    .button-list {
+        text-align: center;
+    }
+
+    .button {
+        background-color: #0095ff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.15385;
+        margin: 0;
+        outline: none;
+        padding: 8px .8em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+
+        .button:active {
+            background-color: #0064bd;
+            box-shadow: none;
+        }
+
+    .card-form {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        box-shadow: 0 10px 20px 0 rgba(#999, .25);
+        padding: .75rem;
+    }

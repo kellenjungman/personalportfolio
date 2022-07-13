@@ -1,6 +1,121 @@
 <!DOCTYPE html>
 <html>
+    <header>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="header-grid">
+        <div class="header-grid-1">
+        <h3 class="title-name">Kellen Jungman</h3>
+    </div>
+    <div class="header-grid-2">
+        <nav class="header-nav-bar">
+            <ul>
+                <li><img src="img/img_avatar.png" class="avatar"></li>
+                <li><a href="" class="fa fa-linkedin"></a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <div class="header-desc-div">
+        <h4 class="header-desc">Pursuing Bachelors of Finance <span>&#64;</span> The University of Nebraska-Lincoln '24</h4>
+    </div>
+    </header>
     <body>
-        <h1>Hello World!</h1>
+        <div class="body-div">
+        <div class="body-div-1">   
+        <nav class="body-nav-bar">
+            <ul>
+                <li><a href="">01 <span class="line"></span> Projects</a></li>
+                <li><a href="">02 <span class="line"></span> Reading</a></li>
+                <li><a href="">03 <span class="line"></span> Life</a></li>
+            </ul>
+        </nav>
+        </div>  
+        <div class="body-div-2">
+            <div class="body-div-card">
+                <h2>Project 1</h2>
+                <p>description...</p>
+            </div>
+            <div class="body-div-card">
+                <h2>Project 2</h2>
+                <p>description...</p>
+            </div>
+            <div class="body-div-card">
+                <h2>Project 3</h2>
+                <p>description...</p>
+            </div>
+            <div class="body-div-card">
+                <h2>Project 4</h2>
+                <p>description...</p>
+            </div>
+        </div>
+    </div>
+    <div class="body-div-slideshow">
+        <div class="body-div-slideshow-card">
+            <h2>Book 1</h2>
+            <p>description...</p>
+        </div>
+        <div class="body-div-slideshow-card">
+            <h2>Book 2</h2>
+            <p>description...</p>
+        </div>
+        <div class="body-div-slideshow-card">
+            <h2>Book 3</h2>
+            <p>description...</p>
+        </div>
+        <div class="body-div-slideshow-card">
+            <h2>Book 4</h2>
+            <p>description...</p>
+        </div>
+    </div>    
     </body>
+    <footer>
+        <div class="footer-div">
+            <div class="footer-div-hobby">
+                <div class="footer-div-hobby-1">
+                    <h2>Hobby 1</h2>
+                    <p>description...</p>
+                </div>
+                <div class="footer-div-hobby-1">
+                    <h2>Hobby 2</h2>
+                    <p>description...</p>
+                </div>
+                <div class="footer-div-hobby-1">
+                    <h2>Hobby 3</h2>
+                    <p>description...</p>
+                </div>
+                <div class="footer-div-hobby-1">
+                    <h2>Hobby 4</h2>
+                    <p>description...</p>
+                </div>
+            </div>
+            <div class="footer-div-form">
+                <div class="form-card-image">	
+                    <h2 class="form-card-heading">
+                        My treat
+                        <small>Let's chat sometime</small>
+                    </h2>
+                </div>
+                    <form onsubmit="return submitForm()">
+                <ul>
+                    <li>
+                        <input type="text" id="user_name" name="user_name" placeholder="Name:"/>
+                    </li>
+                    <li>
+                        <input type="email" id="user_email" name="user_email" placeholder="Email:"/>
+                    </li>
+                    <li>
+                        <textarea id="user_message" name="user_message" placeholder="Message:"></textarea>
+                    </li>
+                    <li class="button-list">
+                        <button type="submit" class="button">Send</button>
+                    </li>
+                </ul>
+            </form> 
+            </div>
+        </div>
+    </footer>
 </html>
