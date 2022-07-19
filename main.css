@@ -89,12 +89,83 @@ html {
 }
     .body-div-2 {
         display: grid;
-        grid-auto-rows: auto;
+        grid-auto-rows:auto;
         row-gap: 10px;
+        margin-right: 10%;
+        transition: .5s;
+
     }
-        .body-div-card {
-            background-color: gray;
+        .body-div-card-1, .body-div-card-2, .body-div-card-3 {
+            transition: .3s;  
         }
+            .body-div-card-1-img {
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left: 2%;
+                background-position:left center;
+                position: relative;
+                border-style:solid;
+                border-color:#212121;
+            }
+                .body-div-card-1-img::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background-image: url(img/project1background.png);
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    filter:blur(2px);
+                    overflow: hidden;
+                    background-position:left center;
+                }
+            .body-div-card-1 p, .body-div-card-2 p, .body-div-card-3 p {
+                font-size: 14px;
+                font:bold;
+                margin: 0;
+                padding-bottom: .5%;
+                filter:none;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+                .body-div-card-1 h2, .body-div-card-2 h2, .body-div-card-3 h2 {
+                    font-weight: 500;
+                    font-size: 25px; 
+                    margin: 0;
+                    padding-bottom: 1.5%;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+                .body-div-card-1 span, .body-div-card-2 span, .body-div-card-3 span {
+                    color:#a7a7a7;
+                    font-size: 14px;
+                    padding-top: 1%;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                }
+    .body-div-2:hover > .body-div-card-1{
+        opacity: .25;
+    }
+
+            .body-div-2:hover > .body-div-card-1:hover {
+                transform: scale(1.075);
+                opacity: 1;
+            }
+            .body-div-2:hover > .body-div-card-2{
+                opacity: .25;
+            }
+        
+                    .body-div-2:hover > .body-div-card-2:hover {
+                        transform: scale(1.075);
+                        opacity: 1;
+                    }
+                    .body-div-2:hover > .body-div-card-3{
+                        opacity: .25;
+                    }
+                
+                            .body-div-2:hover > .body-div-card-3:hover {
+                                transform: scale(1.075);
+                                opacity: 1;
+                            }
 
 .body-div-slideshow {
     display: grid;
