@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html id="home-link-destination">
     <header>
+        <script src="script.js"></script>
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="header-grid">
@@ -12,7 +13,7 @@
             <ul>
                 <li><img src="img/img_avatar.png" class="avatar"></li>
                 <li><a href="https://www.linkedin.com/in/kellen-jungman-a50208230/" class="fa fa-linkedin"></a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="#home-link-destination">Home</a></li>
                 <li><a href="">Resume</a></li>
                 <li><a href="">About</a></li>
             </ul>
@@ -29,13 +30,13 @@
         <div class="body-div-1">   
         <nav class="body-nav-bar">
             <ul>
-                <li><a href="">01 <span class="line"></span> Projects</a></li>
-                <li><a href="">02 <span class="line"></span> Reading</a></li>
-                <li><a href="">03 <span class="line"></span> Life</a></li>
+                <li><a href="#projects-link-description">01 <span class="line"></span> Projects</a></li>
+                <li><a href="#books-link-destination">02 <span class="line"></span> Reading</a></li>
+                <li><a href="#hobby-link-destination">03 <span class="line"></span> Life</a></li>
             </ul>
         </nav>
         </div>  
-        <div class="body-div-2">
+        <div class="body-div-2" id="projects-link-destination">
             <div class="body-div-card-1">
                 <div class="body-div-card-1-img" >
                 <p>HTML, CSS, JavaScript, Azure Cloud Platform</p>
@@ -55,7 +56,7 @@
             </div>
         </div>
     </div>
-    <h1 class="div-titles">What Am I Currently Learning?</h1>
+    <h1 class="div-titles" id="books-link-destination">What Am I Currently Learning?</h1>
     <div class="body-div-slideshow">
         <div class="flip-card">
         <div class="flip-card-inner">
@@ -75,8 +76,8 @@
     </div>
     <div class="flip-card">
         <div class="flip-card-inner">
-            <div class="flip-card-front-2"></div>
-            <div class="flip-card-back-2">
+            <div class="flip-card-front-3"></div>
+            <div class="flip-card-back-3">
                 <h1>description...</h1>
             </div>
         </div>
@@ -100,9 +101,8 @@
     </div>    
     </body>
     <footer>
-        <h1 class="div-titles"></h1>
         <div class="footer-div">
-            <div class="footer-div-hobby">
+            <div class="footer-div-hobby" id="hobby-link-destination">
                 <div class="footer-div-hobby-1">
                     <h2>Hobby 1</h2>
                     <p>description...</p>
