@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color:black;
+    background-color:rgb(3, 3, 3);
     color:white;
 }
 .header-grid {
@@ -96,7 +96,7 @@ html {
             transition: .3s;
         }
             .body-nav-bar li:hover {
-                font-size: 25px;
+                font-size: 20px;
             }
             .body-nav-bar li a {
                 text-decoration: none;
