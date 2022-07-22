@@ -118,6 +118,10 @@ html {
         transition: .5s;
 
     }
+    .body-div-card-1-link {
+        text-decoration: none;
+        color: white;
+    }
         .body-div-card-1, .body-div-card-2, .body-div-card-3 {
             transition: .3s;  
         }
